@@ -24,7 +24,7 @@ int main(void) {
 
 	// ansi escape sequence to set print co-ordinates
 	// /x1b[line;columnH
-	iprintf("\x1b[10;10HHello World!\n");
+	iprintf("\x1b[10;10HPONG TUTORIAL BITCHES!!!\n");
 
 	while (1) {
 		VBlankIntrWait();
